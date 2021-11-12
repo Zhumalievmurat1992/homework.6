@@ -29,12 +29,10 @@ public class GameEntity {
     public void setDamage(int damage) {
         this.damage = damage;
     }
-    public String printinfo(){
-        return name + " " +health +"жизнь "+ damage+"урон";
+
+    public String printinfo() {
+        return name + " " + health + "жизнь " + damage + "урон";
     }
-
-
-
 
 
 }
